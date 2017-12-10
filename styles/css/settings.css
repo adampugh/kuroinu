@@ -1,0 +1,32 @@
+html {
+  color: #222;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+a, a:link, a:visited, a:hover, a:active {
+  color: #222;
+  text-decoration: none; }
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: .2rem; }
+  .heading:after {
+    content: "";
+    display: block;
+    width: 1.5625rem;
+    height: 0.125rem;
+    margin: 1.25rem auto;
+    background: #907145; }
+
+.background__grey {
+  background: whitesmoke; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+
+@media (min-width: 62rem) {
+  .container {
+    width: 80%; } }

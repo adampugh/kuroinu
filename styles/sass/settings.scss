@@ -1,0 +1,76 @@
+// colours
+$gold: #907145;
+$brown: rgba(242, 233, 223, 0.8);
+$off-black: #222;
+$trans-white: rgba(255, 255, 255, 0.95);
+
+
+// sizes
+$desktop-breakpoint: 62rem;
+
+// mixins
+@mixin image__border {
+  border: 6px solid white;
+  box-shadow: 2px 2px 10px #e8e7e7;
+}
+
+
+
+
+html {
+  color: $off-black;
+  box-sizing: border-box;
+
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  // font-family: 'Quicksand', sans-serif;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: $off-black;
+  text-decoration: none;
+}
+
+
+.heading {
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  &:after {
+    content: "";
+    display: block;
+    width: 1.5625rem;
+    height: 0.125rem;
+    margin: 1.25rem auto;
+    background: $gold;
+  }
+}
+
+.background__grey {
+  background: rgb(245, 245, 245);
+}
+
+
+
+
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .container {
+    width: 80%;
+  }
+
+}
+
+
+
+// background: url('../images/background-grey.jpg') no-repeat center center fixed; 
+// -webkit-background-size: cover;
+// -moz-background-size: cover;
+// -o-background-size: cover;
+// background-size: cover;

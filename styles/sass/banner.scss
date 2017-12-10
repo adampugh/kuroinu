@@ -1,0 +1,70 @@
+.slideshow {
+    // padding-top: 65px;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    max-height: 700px;
+    .slide {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        transition: opacity 1s ease-in-out;
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        opacity: 0;
+ 
+        &.show {
+            opacity: 1;
+        }
+    }
+}
+
+// rgba(33, 33, 33, 0.95)
+
+.slideshow__content {
+    background: linear-gradient(to bottom, rgba(144, 113, 69, 0.6), rgba(33, 33, 33, 0.8));
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    position: absolute;
+    img {
+        margin-top: 10rem;
+        height: 200px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 4rem;
+        font-family: 'Open Sans', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin-bottom: 0;
+        letter-spacing: .5rem;
+    }
+    p {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+    i {
+        animation-name: iconbounce;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        font-size: 2rem;
+        margin-top: 3rem;
+        cursor: pointer;
+    }
+}
+
+@keyframes iconbounce {
+    0%   {margin-top: 3rem;}
+    50% {margin-top: 3.2rem;}
+    0% {margin-top: 3rem;}
+}

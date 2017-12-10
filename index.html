@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Kuroinu | Japanese Restaurant</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins|Quicksand" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>            
+        <div class="navbar">
+            <!-- desktop menu -->
+            <div class="navbar__desktop">
+                <div class="navbar__link about-btn"><a href="#about">about</a></div>
+                <div class="navbar__link menu-btn"><a href="#menu">menu</a></div>
+                <div class="navbar__link logo-btn"><a href="">
+                    <img src="./styles/images/navbar-icon2.png" alt="">
+                </a></div>
+                <div class="navbar__link restaurants-btn"><a href="#restaurants">restaurants</a></div>
+                <div class="navbar__link contact-btn"><a href="#contact">contact</a></div>
+            </div>
+            
+            <!-- mobile menu -->
+            <span class="navbar__hamburger">&#9776;</span>
+        </div>
+        <div class="navbar__dropdown">
+            <div class="navbar__link about-btn"><a href="#about">about</a></div>
+            <div class="navbar__link menu-btn"><a href="#about">menu</a></div>
+            <div class="navbar__link restaurants-btn"><a href="#about">restaurants</a></div>
+            <div class="navbar__link contact-btn"><a href="#about">contact</a></div>
+            <div class="social-links">
+                <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <p>45 Bold Street, Liverpool, L1 1RZ</p>
+                <p class="navbar__number">0151.729.1132</p>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- banner -->
+
+    <div class="slideshow">
+        <div class="slideshow__content">
+            <img src="./styles/images/food/bowl.png" alt="">
+            <h1>KUROINU</h1>
+            <p>Japanese Restaurant</p>
+            <i class="fa fa-arrow-down about-btn" aria-hidden="true"></i>
+        </div>
+        
+        <div class="slide show" style="background-image: url('./styles/images/restaurant/restaurant6.jpg');"></div>
+        <div class="slide" style="background-image: url('./styles/images/food/food1.jpg');"></div>
+        <div class="slide" style="background-image: url('./styles/images/restaurant/restaurant8.jpg');"></div>
+    </div>
+
+
+
+    <!-- about -->
+    <div data-aos="fade" data-aos-delay="50" id="about" class="container">
+        <h1 class="heading">About</h1>
+        <div class="about__content">
+            <div>
+                <img src="./styles/images/food/food8.jpg" alt="">
+            </div>
+            <div class="about__content__text">
+                <p>Enjoy modern authentic Japanese dining at Kuroinu in Liverpool, London and Manchester.
+                The a la carte menus provide a superb selection of Japanese dishes, prepared by our outstanding head chef 
+                Maria Takeuchi and her talented team.</br></br>
+                Each venue has its own unique decor designed by the renowned Toshiki Kadomatsu creating a modern Japanese 
+                and contemporary dining experience at Kuroinu.    
+                Whether it's a meal with friends or a business lunch, for the ultimate Japanese dining experience join us at
+                    Kuroinu.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="brown-background">
+        <!-- menu -->
+        <div data-aos="fade" data-aos-delay="50" id="menu" class="container">
+            <h1 class="heading">Menu</h1>
+
+            <!-- drinks -->
+            <h2 class="menu__section">drinks</h2>
+            <div class="menu__grid">
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Pepsi</p><p>£2.70</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Slim Line Tonic</p><p>£2.40</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Lemonade</p><p>£2.70</p>
+                    </div>
+                </div>
+
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Asahi</p><p>£4.00</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Kirin</p><p>£3.70</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Sapporo</p><p>£3.70</p>
+                    </div>
+                </div>
+
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Sake Mojito</p><p>£5.70</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Pomegrante Sakeri</p><p>£6.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- appertizers -->
+            <h2 class="menu__section">appertisers</h2>
+            <div class="menu__grid">
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Yasai (v)</p><p>£6.70</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Ika</p><p>£7.00</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Moriawase</p><p>£8.50</p>
+                    </div>
+                </div>
+
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Ebi</p><p>£8.50</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Kani</p><p>£9.50</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Miso Shiru</p><p>£4.50</p>
+                    </div>
+                </div>
+
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Tamanegi Shiru</p><p>£6.00</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Yasai Harumaki</p><p>£5.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sushi -->
+            <h2 class="menu__section">Sushi</h2>
+            <div class="menu__grid">
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Saba</p><p>£3.50</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Sake</p><p>£4.00</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Suzuki</p><p>£3.50</p>
+                    </div>
+                </div>
+
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Ebi</p><p>£3.75</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Ika</p><p>£3.75</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Tobikko</p><p>£4.50</p>
+                    </div>
+                </div>
+
+                <div class="menu__grid__col">
+                    <div class="menu__grid__row">
+                        <p>Maguro</p><p>£4.50</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Hokkigai</p><p>£5.00</p>
+                    </div>
+                    <div class="menu__grid__row">
+                        <p>Unagi</p><p>£5.00</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    
+
+    <div id="menu__pictures" class="container">
+        <div data-aos="fade" data-aos-delay="100" class="menu__pictures--1">
+            <img src="./styles/images/food/food3.jpg" alt="">
+        </div>
+        <div data-aos="fade" data-aos-delay="300" class="menu__pictures--2">
+            <img src="./styles/images/food/food9.jpg" alt="">
+        </div>
+        <div data-aos="fade" data-aos-delay="500" class="menu__pictures--3">
+            <img src="./styles/images/food/food5.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <!-- restaurants -->
+    <div class="background__grey">
+        <div data-aos="fade" data-aos-delay="50" id="restaurants" class="container">
+            <h1 class="heading">Restaurants</h1>
+            <div class="restaurants__grid">
+                <div class="restaurants__panel">
+                    <h5 class="restaurants__panel__map">
+                        <a href="https://www.google.co.uk/maps/place/Market+St,+Manchester/@53.4825324,-2.2436253,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1c0d6ea4383:0x9bd6399cbdf54605!8m2!3d53.4825324!4d-2.2414366" target="_blank">
+                        View Map</a>
+                    </h5>
+                    <img src="./styles/images/restaurant/restaurant7.jpg" alt="">
+                    <h3 class="restaurants__panel__heading">Liverpool</h3>
+                    <h3 class="restaurants__panel__heading--black">Bold Street</h3>
+                    <div class="restaurants__panel__text">
+                        <p>16 Bold Street, Liverpool L1 7XR</p>
+                        <p>boldstreet@kuroiro.com</p>
+                        <p>0151 724 0566</p>
+                    </div>
+                    <h3 class="restaurants__panel__heading--black">reserve a table</h3>
+                    <button class="btn-gold">Book</button>
+                </div>
+    
+                <div class="restaurants__panel">
+                    <h5 class="restaurants__panel__map">
+                        <a href="https://www.google.co.uk/maps/place/Market+St,+Manchester/@53.4825324,-2.2436253,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1c0d6ea4383:0x9bd6399cbdf54605!8m2!3d53.4825324!4d-2.2414366" target="_blank">
+                        View Map</a>
+                    </h5>
+                    <img src="./styles/images/restaurant/restaurant4.jpg" alt="">
+                    <h3 class="restaurants__panel__heading">London</h3>
+                    <h3 class="restaurants__panel__heading--black">Berwick Street</h3>
+                    <div class="restaurants__panel__text">
+                        <p>104 Berwick Street, London W1D 3DG</p>
+                        <p>berwickstreet@kuroiro.com</p>
+                        <p>0207 287 6638</p>
+                    </div>
+                    <h3 class="restaurants__panel__heading--black">reserve a table</h3>
+                    <button class="btn-gold">Book</button>
+                </div>
+    
+                <div class="restaurants__panel">
+                    <h5 class="restaurants__panel__map">
+                        <a href="https://www.google.co.uk/maps/place/Market+St,+Manchester/@53.4825324,-2.2436253,17z/data=!3m1!4b1!4m5!3m4!1s0x487bb1c0d6ea4383:0x9bd6399cbdf54605!8m2!3d53.4825324!4d-2.2414366" target="_blank">
+                        View Map</a>
+                    </h5>
+                    <img src="./styles/images/restaurant/restaurant12.jpg" alt="">
+                    <h3 class="restaurants__panel__heading">Manchester</h3>
+                    <h3 class="restaurants__panel__heading--black">Market Street</h3>
+                    <div class="restaurants__panel__text">
+                        <p>55 Market Street, Manchester M1 1AG</p>
+                        <p>marketstreet@kuroiro.com</p>
+                        <p>0161 344 4564</p>
+                    </div>
+                    <h3 class="restaurants__panel__heading--black">reserve a table</h3>
+                    <button class="btn-gold">Book</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact -->
+    <div data-aos="fade" data-aos-delay="50" id="contact" class="container">
+            <h1 class="heading">Contact</h1>
+
+        <div class="contact__grid">
+            <div class="contact__col">
+                <h2 class="menu__section">opening times</h2>
+                <div class="menu__grid__row">
+                    <p>Monday - Friday</p><p>11:30 am - 11:00 pm</p>
+                </div>
+                <div class="menu__grid__row">
+                    <p>Saturday - Sunday</p><p>10:00 am - 1:00 am</p>
+                </div>
+            </div>
+
+            <div class="contact__col">
+                <h2 class="menu__section">reservations</h2>
+                <div class="menu__grid__row">
+                    <p>
+                        <i class="fa fa-phone" aria-hidden="true"></i>    
+                    </p>
+                    <p>0151 724 0566</p>
+                </div>
+                <div class="menu__grid__row">
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </p>
+                    <p>boldstreet@kuroiro.com</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div id="footer">
+        <h1>KUROINU</h1>
+        <div class="social-links">
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+        <p>&copy; 2017 Design By <a href="">Kokonoka Digital</a></p>
+    </div>
+    
+
+
+
+
+
+
+
+    <script src="https://use.fontawesome.com/2398d4121c.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

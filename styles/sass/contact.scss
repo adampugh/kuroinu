@@ -1,0 +1,19 @@
+#contact {
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.contact__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .contact__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact__col {
+        margin-right: 40px;
+    }
+}

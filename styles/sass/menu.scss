@@ -1,0 +1,43 @@
+.brown-background {
+    background: $brown;
+}
+
+#menu {
+    padding: 6rem 0;
+}
+
+.menu__section {
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    text-align: left;
+    text-transform: uppercase;
+    &:after {
+        content: "";
+        display: block;
+        height: 0.125rem;
+        margin: 1.25rem auto;
+        background: $gold;
+    }
+}
+
+.menu__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.menu__grid__row {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: $desktop-breakpoint) {
+    .menu__grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu__grid__row {
+        padding-right: 40px;
+    }
+
+}

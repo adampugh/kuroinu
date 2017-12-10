@@ -1,0 +1,4 @@
+#menu__pictures {
+  display: grid; }
+  #menu__pictures img {
+    width: 80%; }

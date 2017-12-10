@@ -1,0 +1,32 @@
+#about {
+    padding: 6rem 0;
+    text-align: center;
+    img {
+        @include image__border;
+        margin: 2rem 0;
+        width: 90%;
+        transform: rotate(-1deg);
+    }
+
+
+    p {
+        color: $gold;
+        font-size: 1.2rem;
+        font-family: 'Quicksand', sans-serif;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (min-width: $desktop-breakpoint) {
+    .about__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .about__content__text {
+            align-self: center;
+        }
+    }
+
+}

@@ -16,14 +16,10 @@ $desktop-breakpoint: 62rem;
 
 
 
-
 html {
   color: $off-black;
   box-sizing: border-box;
-
-  // font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
-  // font-family: 'Quicksand', sans-serif;
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -49,11 +45,6 @@ a, a:link, a:visited, a:hover, a:active {
   background: rgb(245, 245, 245);
 }
 
-
-
-
-
-
 .container {
   width: 90%;
   margin: 0 auto;
@@ -66,11 +57,3 @@ a, a:link, a:visited, a:hover, a:active {
   }
 
 }
-
-
-
-// background: url('../images/background-grey.jpg') no-repeat center center fixed; 
-// -webkit-background-size: cover;
-// -moz-background-size: cover;
-// -o-background-size: cover;
-// background-size: cover;

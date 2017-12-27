@@ -1,5 +1,4 @@
 .slideshow {
-    // padding-top: 65px;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -24,8 +23,6 @@
         }
     }
 }
-
-// rgba(33, 33, 33, 0.95)
 
 .slideshow__content {
     background: linear-gradient(to bottom, rgba(144, 113, 69, 0.6), rgba(33, 33, 33, 0.8));
